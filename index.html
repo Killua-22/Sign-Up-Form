@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="leftheading">
+      <h3>Learn to code by watching others</h3>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</p>
+
+    </div>
+
+    <div class="form">
+      <div class="containerabove">
+        <b>Try it free 7 days&nbsp;</b> then $20/mo. thereafter
+      </div>
+
+      <form class="containerbelow" id="form">
+        <input type="text" id="firstname" placeholder="First Name">
+        <p>First Name cannot be empty</p>
+        <input type="text" id="lastname" placeholder="Last Name">
+        <p>Last Name cannot be empty</p>
+        <input type="text" id="email" placeholder="Email Address">
+        <p>Looks like this is not an email</p>
+        <input type="password" id="password" placeholder="Password">
+        <p>Password cannot be empty</p>
+
+        <button id="submit" type="submit">CLAIM YOUR FREE TRIAL</button>
+        
+
+        <div class="terms">By clicking the button, you are agreeing to our <span class=tands>Terms and Services</span></div>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ankit</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
